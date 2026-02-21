@@ -14,7 +14,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       suppressHydrationWarning>
-      <body>
+      <body className="bg-[url(/white-bg.jpg)] bg-cover bg-no-repeat backdrop:bg-center dark:bg-[url(/dark-bg.jpg)]">
         <ThemeProvider
           attribute={"class"}
           defaultTheme="dark"
