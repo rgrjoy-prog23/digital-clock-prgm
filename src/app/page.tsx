@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <section className="grid h-[90dvh] place-items-center">
+    <section className="grid min-h-dvh place-items-center">
       <ClockApp />
     </section>
   );
